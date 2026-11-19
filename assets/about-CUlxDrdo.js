@@ -1,4 +1,4 @@
-import{a as e,b as t,i as n,l as r,m as i,o as a,p as o,r as s,u as c,y as l}from"./count-DvK-sBaV.js";e(a()),t([...document.querySelectorAll(`[data-emergency]`)]),l(),n(),s(`/about`),document.getElementById(`counting`).hidden=!1,fetch(new URL(`data/meta.json`,document.baseURI),{cache:`no-cache`}).then(e=>e.json()).then(e=>{document.getElementById(`run`).textContent=c(e.weather_run,{weekday:`long`,day:`numeric`,month:`long`,year:`numeric`}),document.getElementById(`credits`).innerHTML=e.credits.map(e=>`
+import{a as e,b as t,i as n,l as r,m as i,o as a,p as o,r as s,u as c,y as l}from"./count-Cv5vCcrV.js";e(a()),t([...document.querySelectorAll(`[data-emergency]`)]),l(),n(),s(`/about`),document.getElementById(`counting`).hidden=!1,fetch(new URL(`data/meta.json`,document.baseURI),{cache:`no-cache`}).then(e=>e.json()).then(e=>{document.getElementById(`run`).textContent=c(e.weather_run,{weekday:`long`,day:`numeric`,month:`long`,year:`numeric`}),document.getElementById(`credits`).innerHTML=e.credits.map(e=>`
       <div class="card">
         <p><b>${r(e.name)}</b></p>
         <p>${r(e.credit)}</p>
