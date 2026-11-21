@@ -1,51 +1,50 @@
 {
- "generated_utc": "2026-11-20T04:52+00:00",
- "weather_run": "2026-11-20",
+ "generated_utc": "2026-11-21T07:43+00:00",
+ "weather_run": "2026-11-21",
  "model": "ecmwf_ifs",
  "days": [
   {
    "offset": 0,
-   "date": "2026-11-20",
-   "confidence": "high"
-  },
-  {
-   "offset": 1,
    "date": "2026-11-21",
    "confidence": "high"
   },
   {
-   "offset": 2,
+   "offset": 1,
    "date": "2026-11-22",
    "confidence": "high"
   },
   {
-   "offset": 3,
+   "offset": 2,
    "date": "2026-11-23",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
-   "offset": 4,
+   "offset": 3,
    "date": "2026-11-24",
    "confidence": "medium"
   },
   {
-   "offset": 5,
+   "offset": 4,
    "date": "2026-11-25",
-   "confidence": "low"
+   "confidence": "medium"
   },
   {
-   "offset": 6,
+   "offset": 5,
    "date": "2026-11-26",
    "confidence": "low"
   },
   {
-   "offset": 7,
+   "offset": 6,
    "date": "2026-11-27",
+   "confidence": "low"
+  },
+  {
+   "offset": 7,
+   "date": "2026-11-28",
    "confidence": "low"
   }
  ],
  "rain_days": [
-  "2026-10-22",
   "2026-10-23",
   "2026-10-24",
   "2026-10-25",
@@ -81,7 +80,8 @@
   "2026-11-24",
   "2026-11-25",
   "2026-11-26",
-  "2026-11-27"
+  "2026-11-27",
+  "2026-11-28"
  ],
  "public_hexagon_resolution": 7,
  "clock": {
